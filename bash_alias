@@ -1,0 +1,26 @@
+alias cdfe="cd Documents/Arbeit/Workspace/rasch-stack/"
+alias gs="git status"
+alias gl="git log"
+alias cdm="cd Documents/Schule/Mathe/geo-rechner"
+alias start="npm start"
+alias c="clear"
+alias cdu="cd Documents/Arbeit/Uebungen"
+alias add="git add ."
+alias dev="git checkout develop"
+alias main="git checkout main"
+alias test="yarn run test"
+alias lint="yarn run lint"
+alias op="code ."
+alias gp="git pull"
+alias cd120="cd Documents/Schule/M120/"
+alias lint="yarn lint"
+alias cdzork="cd Documents/Schule/M226A/ZorkGame"
+alias run="yarn run dev"
+alias cdpong="cd Documents/Arbeit/Workspace/pong-game/"
+alias l="ls -alrt"
+alias hugod="hugo server -D"
+alias css='f(){ yarn css:typedef --path="$@";  unset -f f; }; f'
+alias runfe = startRaschStack() {
+  cdfe
+  run
+}
